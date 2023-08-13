@@ -24,8 +24,8 @@ def jaccard_similarity(set1, set2): #Jaccard similarity is the ratio of the inte
     return intersection / union if union != 0 else 0
 
 # Read content from the two uploaded files
-file1_path = "C:\\Users\\SRILU\\AppData\\Local\\Programs\\Python\\Python39\\Life.txt"
-file2_path = "C:\\Users\\SRILU\\AppData\\Local\\Programs\\Python\\Python39\\Nature.txt"
+file1_path = "first file path.txt"
+file2_path = "second file path.txt"
 
 with open(file1_path, "r") as file1:
     document1 = file1.read()
